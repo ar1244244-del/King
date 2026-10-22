@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VERDÉRA — Luxury Interior Architecture & Furniture Atelier</title>
+  <meta name="description" content="An architectural interior practice and furniture atelier crafting contemplative environments, bespoke appointments, and enduring private residences worldwide.">
+  <meta name="theme-color" content="#032A21">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23032A21'/%3E%3Cpath d='M9 8h3.5l4.5 12 4.5-12H25L18.5 24h-4z' fill='%23C8A45D'/%3E%3C/svg%3E">
+
+  <!-- Google Fonts: Cormorant Garamond (Headings) & Manrope (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Master Stylesheet -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- ========================================================================
+       01. SITE HEADER & NAVIGATION
+       ======================================================================== -->
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <!-- Zone 1: Wordmark Brand -->
+      <a href="#top" class="brand-wordmark" aria-label="VERDÉRA Homepage">
+        VERDÉRA
+      </a>
+
+      <!-- Zone 2: Navigation Links -->
+      <nav class="nav-links" aria-label="Main Navigation">
+        <a href="#collection" class="nav-link">Collection</a>
+        <a href="#spaces" class="nav-link">Interiors</a>
+        <a href="#philosophy" class="nav-link">Philosophy</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Zone 3: Primary Action & Mobile Hamburger -->
+      <div class="header-actions">
+        <a href="#contact" class="btn-header">
+          Start a Project
+        </a>
+        <button class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div class="mobile-menu-drawer" id="mobile-drawer">
+      <div class="mobile-nav-links">
+        <a href="#collection" class="mobile-nav-link">Collection</a>
+        <a href="#spaces" class="mobile-nav-link">Interiors</a>
+        <a href="#philosophy" class="mobile-nav-link">Philosophy</a>
+        <a href="#services" class="mobile-nav-link">Services</a>
+        <a href="#about" class="mobile-nav-link">About</a>
+        <a href="#contact" class="mobile-nav-link">Contact</a>
+      </div>
+      <div style="padding-top: 2rem; border-top: 1px solid var(--border-hairline);">
+        <a href="#contact" class="btn-primary" style="width: 100%; text-align: center;">Start a Project</a>
+        <p style="text-align: center; font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted-text); margin-top: 1rem;">
+          Milan · London · Private Commissions
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ========================================================================
+         02. HERO SECTION
+         ======================================================================== -->
+    <section class="hero-section container">
+      <div class="hero-grid">
+        <!-- Left: Headline & Actions -->
+        <div class="hero-content reveal-on-scroll">
+          <div class="eyebrow">
+            Timeless Interiors · Modern Craft
+          </div>
+
+          <h1 class="hero-headline">
+            Spaces Designed to Feel Like Home
+          </h1>
+
+          <p class="hero-description">
+            An architectural interior practice and furniture atelier crafting contemplative environments, bespoke appointments, and enduring private residences worldwide.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#collection" class="btn-primary">
+              Explore Collection
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#spaces" class="btn-secondary">
+              View Interiors
+            </a>
+          </div>
+
+          <div class="hero-footnote">
+            <span>Private Residences</span>
+            <span>·</span>
+            <span>Bespoke Furniture</span>
+            <span>·</span>
+            <span>Milan & London</span>
+          </div>
+        </div>
+
+        <!-- Right: Cinematic Hero Image -->
+        <div class="hero-image-wrapper reveal-on-scroll reveal-delay-1">
+          <div class="hero-corner-accent hero-corner-top-left"></div>
+          <div class="hero-corner-accent hero-corner-bottom-right"></div>
+          <div class="hero-image-frame">
+            <img 
+              src="./assets/images/hero_luxury_living_1790409315300.jpg" 
+              alt="Deep forest green contemporary living room with bespoke velvet sofa and warm architectural illumination"
+              loading="eager"
+              decoding="async"
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         03. INTRODUCTION / ASYMMETRICAL EDITORIAL SPLIT
+         ======================================================================== -->
+    <section class="section-spacing container" id="about">
+      <div class="editorial-split-grid">
+        <!-- Left Image -->
+        <div class="split-image-container reveal-on-scroll">
+          <div class="split-image-frame">
+            <img 
+              src="./assets/images/interior_lounge_detail_1790409328120.jpg" 
+              alt="Intimate architectural reading lounge with deep olive armchair and warm linen lamp"
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
+        </div>
+
+        <!-- Right Content -->
+        <div class="split-content reveal-on-scroll reveal-delay-1">
+          <div class="eyebrow">
+            The Art of Living
+          </div>
+
+          <h2>Designed Around the Way You Live</h2>
+
+          <p class="lead-p">
+            We approach each space as a sanctuary of acoustic calm, proportion, and quiet architectural drama. We do not chase seasonal trends; instead, we craft rooms grounded in heavy natural timbers, honed green marbles, and sculpted velvet forms that mature with distinction.
+          </p>
+
+          <p class="muted-p">
+            From historic European apartments to modern coastal residences, our work unites architecture, calibrated artificial illumination, and bespoke furniture into one coherent emotional resonance.
+          </p>
+
+          <div class="gold-divider"></div>
+
+          <div>
+            <a href="#philosophy" class="text-link-arrow">
+              Discover Our Approach
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         04. THE COLLECTION SECTION
+         ======================================================================== -->
+    <section class="section-spacing container" id="collection">
+      <div class="collection-header reveal-on-scroll">
+        <div class="eyebrow">
+          Atelier Catalog
+        </div>
+        <h2>The Collection</h2>
+        <p class="muted-p">
+          Considered silhouettes sculpted in Italian velvet, hand-finished walnut, cast bronze, and Italian marbles. Available for private commission.
+        </p>
+      </div>
+
+      <!-- Filter Controls -->
+      <div class="collection-tabs reveal-on-scroll">
+        <button class="tab-btn active" data-category="all">All Pieces</button>
+        <button class="tab-btn" data-category="seating">Seating</button>
+        <button class="tab-btn" data-category="lighting">Lighting</button>
+        <button class="tab-btn" data-category="objects">Objects</button>
+      </div>
+
+      <!-- Cards Grid -->
+      <div class="collection-grid">
+        <!-- Card 1 -->
+        <article class="collection-card reveal-on-scroll" data-category="seating">
+          <div class="card-image-box">
+            <img 
+              src="./assets/images/collection_furniture_1790409340354.jpg" 
+              alt="Bespoke Curvature Settee in deep green velvet"
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
+          <div class="card-content">
+            <div class="card-meta">
+              <span>Seating Atelier</span>
+              <span>Made in Italy</span>
+            </div>
+            <h3 class="card-title">Bespoke Curvature Settee</h3>
+            <p class="card-desc">
+              Sculptural silhouette upholstered in deep emerald mohair velvet with solid walnut base and hand-brushed antique brass ferrules.
+            </p>
+            <div class="card-footer">
+              <span>Mohair Velvet & Walnut</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="collection-card reveal-on-scroll reveal-delay-1" data-category="lighting">
+          <div class="card-image-box">
+            <img 
+              src="./assets/images/architectural_interior_1790409352517.jpg" 
+              alt="Atelier Fluted Bronze Sconce in salon"
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
+          <div class="card-content">
+            <div class="card-meta">
+              <span>Architectural Lighting</span>
+              <span>2400K Golden Warmth</span>
+            </div>
+            <h3 class="card-title">Atelier Fluted Bronze Sconce</h3>
+            <p class="card-desc">
+              Cast bronze wall luminaire offering bidirectional diffused illumination, calibrated to an intimate golden color temperature.
+            </p>
+            <div class="card-footer">
+              <span>Cast Bronze & Frosted Glass</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="collection-card reveal-on-scroll reveal-delay-2" data-category="objects">
+          <div class="card-image-box">
+            <img 
+              src="./assets/images/interior_lounge_detail_1790409328120.jpg" 
+              alt="Honed Verde Alpi Low Console"
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
+          <div class="card-content">
+            <div class="card-meta">
+              <span>Architectural Objects</span>
+              <span>Aosta Quarry</span>
+            </div>
+            <h3 class="card-title">Honed Verde Alpi Low Console</h3>
+            <p class="card-desc">
+              Monolithic low table crafted from contiguous bookmatched Verde Alpi marble slabs with hand-honed chamfered edges.
+            </p>
+            <div class="card-footer">
+              <span>Verde Alpi Marble</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         05. FEATURED INTERIOR SECTION (Full-Width Cinematic Anchor)
+         ======================================================================== -->
+    <section class="featured-space-section" id="spaces">
+      <div class="container" style="margin-bottom: 2rem;">
+        <div class="eyebrow">Featured Space</div>
+        <h2>A Quiet Expression of Modern Luxury</h2>
+      </div>
+
+      <div class="featured-space-banner">
+        <img 
+          src="./assets/images/featured_living_room_1790409364381.jpg" 
+          alt="Expansive luxury living room overlooking lake with forest green walls and low-slung sectional sofa"
+          loading="lazy"
+          decoding="async"
+        >
+        <div class="featured-space-scrim">
+          <div class="featured-space-details reveal-on-scroll">
+            <div class="eyebrow" style="color: var(--gold);">Villa Bellagio · Grand Lakeside Salon</div>
+            <h3 style="font-size: clamp(1.8rem, 3.5vw, 2.75rem); color: var(--cream);">
+              Deep Green Velvet & Italian Architectural Stucco
+            </h3>
+            <p style="font-size: 1rem; color: var(--ivory); font-weight: 300;">
+              A 340-square-meter private residence on Lake Como. Restored ceiling moldings, integrated low-profile wall paneling in custom emerald wash, and made-to-measure modular seating creating uninterrupted sightlines toward the water.
+            </p>
+            <div style="margin-top: 0.5rem;">
+              <a href="#contact" class="btn-primary">
+                Inquire For Villa Commissions
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         06. DESIGN PHILOSOPHY SECTION
+         ======================================================================== -->
+    <section class="section-spacing container" id="philosophy">
+      <div class="reveal-on-scroll">
+        <div class="eyebrow">Guiding Principles</div>
+        <h2>Our Design Philosophy</h2>
+        <p class="muted-p" style="max-width: 600px; margin-top: 1rem;">
+          Every room we compose is anchored by three immutable principles that prioritize human presence, tactile honesty, and timeless architectural rhythm.
+        </p>
+      </div>
+
+      <div class="philosophy-grid">
+        <!-- 01 -->
+        <div class="philosophy-card reveal-on-scroll">
+          <div class="philosophy-num">01</div>
+          <h3 class="philosophy-title">Material Integrity</h3>
+          <p class="philosophy-text">
+            We insist on natural materials: unsealed Verde Alpi marble, slubbed European linen, oiled European walnut, and hand-rubbed antique bronze that mature with authentic patina over decades.
+          </p>
+        </div>
+
+        <!-- 02 -->
+        <div class="philosophy-card reveal-on-scroll reveal-delay-1">
+          <div class="philosophy-num">02</div>
+          <h3 class="philosophy-title">Architectural Balance</h3>
+          <p class="philosophy-text">
+            Proportion and geometry take precedence over decorative excess. Every custom silhouette corresponds directly to window apertures, shadow trajectories, and intentional spatial voids.
+          </p>
+        </div>
+
+        <!-- 03 -->
+        <div class="philosophy-card reveal-on-scroll reveal-delay-2">
+          <div class="philosophy-num">03</div>
+          <h3 class="philosophy-title">Atmosphere & Serenity</h3>
+          <p class="philosophy-text">
+            True luxury is a silent room illuminated with warmth. We design acoustic wool textiles, dense plaster surfaces, and concealed cove lighting to deliver an immediate sense of emotional calm.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         07. LARGE ARCHITECTURAL BANNER (Sanctuary)
+         ======================================================================== -->
+    <section class="container" style="padding-top: 2rem; padding-bottom: 4rem;">
+      <div style="position: relative; aspect-ratio: 21 / 9; min-height: 380px; overflow: hidden; border: 1px solid var(--border-subtle); background-color: var(--forest); box-shadow: 0 25px 60px rgba(0,0,0,0.6);">
+        <img 
+          src="./assets/images/final_grand_space_1790409394551.jpg" 
+          alt="Penthouse lounge interior at dusk with dark forest green tones and warm ambient chandeliers"
+          class="parallax-bg"
+          style="width: 100%; height: 120%; object-fit: cover; margin-top: -10%;"
+          loading="lazy"
+          decoding="async"
+        >
+        <div style="position: absolute; inset: 0; background: rgba(2, 27, 22, 0.45); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 2rem;">
+          <span style="font-size: 0.75rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.75rem; font-weight: 600;">Spatial Purity</span>
+          <h3 style="font-size: clamp(1.8rem, 3.5vw, 3rem); color: var(--cream); max-width: 650px;">
+            Where Architecture Meets Quiet Restraint
+          </h3>
+          <a href="#contact" class="btn-primary" style="margin-top: 1.5rem;">
+            Commission a Sanctuary
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         08. SERVICES SECTION ("What We Create")
+         ======================================================================== -->
+    <section class="section-spacing container" id="services">
+      <div class="reveal-on-scroll">
+        <div class="eyebrow">Our Practice</div>
+        <h2>What We Create</h2>
+        <p class="muted-p" style="max-width: 540px; margin-top: 0.75rem;">
+          Each service is directed by our studio principals in collaboration with master craftsmen and engineering partners.
+        </p>
+      </div>
+
+      <div class="services-list reveal-on-scroll">
+        <div class="service-item">
+          <span class="service-num">01</span>
+          <h3 class="service-name">Residential Interiors</h3>
+          <p class="service-desc">Full-scope architectural interior design, spatial planning, and turnkey project direction for private homes and townhouses.</p>
+          <div class="service-arrow">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </div>
+        </div>
+
+        <div class="service-item">
+          <span class="service-num">02</span>
+          <h3 class="service-name">Custom Furniture Atelier</h3>
+          <p class="service-desc">Bespoke seating, monolithic marble consoles, and hand-finished timber tables fabricated by European master joiners.</p>
+          <div class="service-arrow">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </div>
+        </div>
+
+        <div class="service-item">
+          <span class="service-num">03</span>
+          <h3 class="service-name">Hospitality & Private Salons</h3>
+          <p class="service-desc">Atmospheric environments for boutique hotels, executive penthouses, and private member dining suites.</p>
+          <div class="service-arrow">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </div>
+        </div>
+
+        <div class="service-item">
+          <span class="service-num">04</span>
+          <h3 class="service-name">Styling & Art Direction</h3>
+          <p class="service-desc">Acquisition of rare antique ceramics, collectible mid-century design pieces, and commissioned artworks.</p>
+          <div class="service-arrow">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </div>
+        </div>
+
+        <div class="service-item">
+          <span class="service-num">05</span>
+          <h3 class="service-name">Architectural Lighting</h3>
+          <p class="service-desc">Calibrated golden warm light design, concealed cove illumination, and cast bronze sconce installations.</p>
+          <div class="service-arrow">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         09. ABOUT ATELIER & MATERIAL CRAFTSMANSHIP
+         ======================================================================== -->
+    <section class="section-spacing container">
+      <div class="editorial-split-grid" style="grid-template-columns: 1.15fr 1fr;">
+        <!-- Left: Text Content -->
+        <div class="split-content reveal-on-scroll">
+          <div class="eyebrow">Atelier Heritage</div>
+          <h2>A More Considered Way to Live</h2>
+          <p class="lead-p">
+            Founded on the conviction that modern interiors should offer a quiet respite from sensory saturation, VERDÉRA orchestrates architecture, furnishings, and light into harmonious sanctuaries.
+          </p>
+          <p class="muted-p">
+            Our atelier works directly with heritage marble quarries in Carrara, boutique timber mills in Bavaria, and master upholsterers in Brianza. Every specification is made with reverence for sustainability, durability, and natural materials that mature with grace.
+          </p>
+          <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border-hairline);">
+            <div>
+              <div style="font-family: var(--font-serif); font-size: 2rem; color: var(--gold);">100%</div>
+              <div style="font-size: 0.75rem; text-transform: uppercase; color: var(--muted-text); letter-spacing: 0.1em; margin-top: 0.25rem;">Natural Materials</div>
+            </div>
+            <div>
+              <div style="font-family: var(--font-serif); font-size: 2rem; color: var(--gold);">Milan · LDN</div>
+              <div style="font-size: 0.75rem; text-transform: uppercase; color: var(--muted-text); letter-spacing: 0.1em; margin-top: 0.25rem;">Design Salons</div>
+            </div>
+            <div>
+              <div style="font-family: var(--font-serif); font-size: 2rem; color: var(--gold);">Turnkey</div>
+              <div style="font-size: 0.75rem; text-transform: uppercase; color: var(--muted-text); letter-spacing: 0.1em; margin-top: 0.25rem;">White-Glove</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Material Macro Image -->
+        <div class="split-image-container reveal-on-scroll reveal-delay-1">
+          <div class="split-image-frame">
+            <img 
+              src="./assets/images/material_craft_detail_1790409378835.jpg" 
+              alt="Tactile materials including forest green mohair velvet, bronze hardware, fluted oak, and Verde Alpi marble"
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         10. TESTIMONIAL SECTION
+         ======================================================================== -->
+    <section class="section-spacing container" style="text-align: center;">
+      <div class="testimonial-box reveal-on-scroll">
+        <div class="quote-mark">“</div>
+        <blockquote class="testimonial-quote">
+          Every detail feels intentional. The proportion of the forest-green velvet sofa, the warmth of the bronze lighting, and the serenity of the room make it a space that feels both deeply sophisticated and completely natural to live in.
+        </blockquote>
+        <div>
+          <div class="testimonial-author">Helena & Marcus Lindqvist</div>
+          <div class="testimonial-project">Private Residence · Geneva, Switzerland</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         11. CONTACT / INQUIRY FORM
+         ======================================================================== -->
+    <section class="section-spacing container" id="contact">
+      <div class="inquiry-grid reveal-on-scroll">
+        <!-- Left: Briefing Info -->
+        <div class="inquiry-info">
+          <div>
+            <div class="eyebrow">Begin the Dialogue</div>
+            <h2 style="font-size: clamp(2rem, 3.5vw, 3rem); margin-top: 0.75rem;">
+              Let's Create a Space Worth Coming Home To.
+            </h2>
+            <p class="muted-p" style="margin-top: 1rem;">
+              Whether commissioning a single statement furniture piece or embarking on a full residential transformation, we invite you to discuss your project with our studio principals.
+            </p>
+          </div>
+
+          <div class="inquiry-contact-details">
+            <div class="inquiry-item">
+              <span class="inquiry-label">Direct Correspondence</span>
+              <span class="inquiry-val">inquiries@verdera-atelier.com</span>
+            </div>
+            <div class="inquiry-item">
+              <span class="inquiry-label">Studio Salons</span>
+              <span class="inquiry-val">Milan: Via Manzoni 14 · London: 28 Mayfair Sq</span>
+            </div>
+            <div class="inquiry-item">
+              <span class="inquiry-label">Telephone</span>
+              <span class="inquiry-val">+39 02 8901 4410 · +44 20 7946 0192</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Interactive Form -->
+        <div>
+          <div id="form-success-box" class="form-success-box">
+            <h3 style="color: var(--cream); font-size: 1.5rem; margin-bottom: 0.5rem;">Inquiry Received</h3>
+            <p style="font-size: 0.9rem; color: var(--ivory);">
+              Thank you. A principal architect will review your project brief and contact you within one business day.
+            </p>
+          </div>
+
+          <form id="inquiry-form" class="inquiry-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="client-name" class="form-label">Full Name *</label>
+                <input type="text" id="client-name" name="name" class="form-control" placeholder="e.g. Eleanor Vance" required>
+              </div>
+              <div class="form-group">
+                <label for="client-email" class="form-label">Email Address *</label>
+                <input type="email" id="client-email" name="email" class="form-control" placeholder="eleanor@domain.com" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="client-phone" class="form-label">Phone Number</label>
+                <input type="tel" id="client-phone" name="phone" class="form-control" placeholder="+44 7000 000000">
+              </div>
+              <div class="form-group">
+                <label for="client-project-type" class="form-label">Commission Nature</label>
+                <select id="client-project-type" name="project_type" class="form-control">
+                  <option value="Private Residence">Private Residence Architecture</option>
+                  <option value="Penthouse Renovation">Penthouse Renovation</option>
+                  <option value="Furniture Atelier">Bespoke Furniture Atelier</option>
+                  <option value="Hospitality">Hospitality / Executive Salon</option>
+                  <option value="Consultation">Interior Consultation & Art</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="client-message" class="form-label">Project Brief & Desired Aesthetic *</label>
+              <textarea id="client-message" name="message" class="form-control" placeholder="Tell us about your space, dimensions, timeline, or specific pieces..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary" style="width: 100%;">
+              Send Project Inquiry
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+            <p style="font-size: 0.72rem; text-align: center; color: var(--muted-text); margin-top: 0.25rem;">
+              Direct confidential review · Non-disclosure agreements standard upon request
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       12. FOOTER
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <!-- Brand Col -->
+        <div class="footer-brand">
+          <a href="#top" class="brand-wordmark">VERDÉRA</a>
+          <p class="muted-p" style="font-size: 0.85rem;">
+            An architectural interior practice and furniture atelier crafting calm, contemplative spaces for discerning private residences and estates globally.
+          </p>
+          <div style="font-size: 0.75rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--gold);">
+            Milan Atelier · London Studio · Zurich Salon
+          </div>
+        </div>
+
+        <!-- Links Col 1 -->
+        <div>
+          <div class="footer-col-title">Exploration</div>
+          <div class="footer-links">
+            <a href="#collection" class="footer-link">The Collection</a>
+            <a href="#spaces" class="footer-link">Featured Interiors</a>
+            <a href="#philosophy" class="footer-link">Design Principles</a>
+            <a href="#services" class="footer-link">Studio Services</a>
+            <a href="#about" class="footer-link">About Atelier</a>
+          </div>
+        </div>
+
+        <!-- Links Col 2 -->
+        <div>
+          <div class="footer-col-title">Services</div>
+          <div class="footer-links">
+            <a href="#services" class="footer-link">Residential Interiors</a>
+            <a href="#services" class="footer-link">Custom Furniture</a>
+            <a href="#services" class="footer-link">Lighting Calibration</a>
+            <a href="#services" class="footer-link">Material Sourcing</a>
+            <a href="#services" class="footer-link">Art Direction</a>
+          </div>
+        </div>
+
+        <!-- Links Col 3 -->
+        <div>
+          <div class="footer-col-title">Direct Inquiries</div>
+          <div class="footer-links">
+            <span class="footer-link">inquiries@verdera-atelier.com</span>
+            <span class="footer-link">+39 02 8901 4410 (Milan)</span>
+            <span class="footer-link">+44 20 7946 0192 (London)</span>
+            <a href="#contact" class="text-link-arrow" style="margin-top: 0.5rem;">
+              Request Lookbook →
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <div>
+          © 2026 VERDÉRA Atelier. All rights reserved. Architectural and bespoke design.
+        </div>
+        <div class="footer-legal-links">
+          <span>Privacy Charter</span>
+          <span>·</span>
+          <span>Terms of Commission</span>
+          <span>·</span>
+          <button id="back-to-top" class="btn-back-top" aria-label="Scroll back to top">
+            Back to Top ↑
+          </button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Master JavaScript -->
+  <script src="./script.js"></script>
+</body>
+</html>
